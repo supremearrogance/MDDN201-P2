@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav{
+  margin-left: 1%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 95%;
+  width: 10%;
+  position: fixed;
+  padding-top: 0.75%;
+}
+
+nav a{
+  text-decoration: none;
+  margin-top: 9.5%;
+  padding: 3%;
+  border: 2px solid #FFB400;
+  font-size: 12pt;
+  color: #FFB400;
+}
+
+nav a:hover{
+  background-color:  #FFB400;
+  color: white;
+}
+
+#Page{
+  padding-left: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.Page1{
+  background-color: #43443F;
+}
+
+.Page3{
+ position: relative;
+}
+
+.Page3text{
+  position: absolute;
+  width: 17.5%;
+  font-size: 11pt;
+  font-weight: 400;
+  text-align: inherit;
+  right: 7.5%;
+  padding-top: 17.5%;
+  letter-spacing: 1%;
+}
+
+.Page4{
+ position: relative;
+}
+
+
+.Page4text{
+  position: absolute;
+  width: 15%;
+  font-size: 11pt;
+  font-weight: 400;
+  text-align: justify;
+  left: 11.5%;
+  padding-top: 21.5%;
+  letter-spacing: 2%;
+}
+
+.Page8{
+ position: relative;
+}
+
+.Page8text{
+  position: absolute;
+  width: 15%;
+  font-size: 10.5pt;
+  font-weight: 400;
+  text-align: justify;
+  right: 6.5%;
+  padding-top: 11.5%;
+}
+
+.images{
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
